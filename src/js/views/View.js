@@ -53,7 +53,9 @@ export default class View {
         );
     });
   }
-
+  /**
+   * @function _clear clears content in parent element
+   */
   _clear() {
     this._parentElement.innerHTML = '';
   }
